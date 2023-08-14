@@ -1,0 +1,181 @@
+
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(182, 214, 229);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.log_box{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+    padding: 20px 25px 8px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 35px 54px -48px rgba(0,0,0,0.7);
+
+}
+
+.log_box h1{
+    color: rgb(7, 64, 114);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins',sans-serif;
+    height: 50px;
+    border-bottom: 1px solid rgba(137, 137, 137, 0.321);
+}
+.log_box .field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.log_box .field input {
+    width: 98.5%;
+    height: 35px;
+    border: 1px solid rgba(112, 112, 112, 0.445);
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+}
+.log_box .field label{
+    font-family: 'Poppins',sans-serif;
+}
+
+.btn{
+    margin-bottom: 10px ;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    border: 1px solid rgba(112, 112, 112, 0.445);
+    background-color: rgba(125, 132, 224, 0.936);
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* Home page*/
+
+
+  
+  header {
+    
+    height: 60px;
+    background-color: rgb(20, 79, 110);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+  }
+  header .System_name{
+    float: left;
+    width: 50%;
+}
+  header .System_name h2{
+    font-family: 'Poppins',sans-serif;
+    margin: 15px 20px 20px 30px;
+    color: rgb(228, 247, 255);
+  }
+  header .logoutBut{
+    width: 50%;
+  }
+  .logoutBut input{
+    font-family: 'Poppins',sans-serif;
+    height: 35px;
+    width: 80px;
+    margin: 13px 30px 20px;
+    float: right;
+    border: none;
+    background-color: rgb(191, 217, 231);
+    color: rgb(14, 37, 100);
+    border-radius: 5px;
+    font-size: 16px;
+
+  }
+
+  /* =================================================================*/
+
+  .billing_system_header{
+}
+  .billing_system_header h3 ,.prod_header h3{
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 35, 100);
+  }
+  
+
+  .cart_table, .product_table {
+    width: 95%;
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.599);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 12px 0 rgba(123, 120, 120, 0.432)
+  }
+
+  .cart_table table , .product_table table{
+    border-collapse: collapse;
+    width: 100%;
+     text-align: left;
+     box-shadow: 0 2px 2px 0 rgb(21, 20, 20)
+  }
+  .cart_table tr{
+    height: 20px;
+    
+  }
+  .cart_table th, .cart_table td{
+    padding: 10px;
+    width:25%;
+  }
+  
+  .cart_table table thead tr{
+    background-color: rgb(63, 96, 140);
+    color: white;
+  }
+.cart_table table tbody tr:nth-child(even){
+    background-color: #b2b2b258;
+}
+.cart_table table tbody tr:nth-child(odd){
+    background-color: #cad9e279;
+}
+
+.cart_table .total_tr{
+  background-color: rgb(195, 170, 219);
+}
+
+.products{
+    margin-top: 40px;
+    text-align: center;
+}
+.prod_header a, .log_box .msg a{
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+
+}
+.product_table tr{
+    height: 20px;
+    
+  }
+  .product_table th, .product_table td{
+    padding: 10px;
+    width:20%;
+  }
+.product_table table thead tr{
+    background-color: rgb(61, 140, 150);
+    color: white;
+  }
+.product_table table tbody tr:nth-child(even){
+    background-color: #b2b2b258;
+}
+.product_table table tbody tr:nth-child(odd){
+    background-color: #cad9e279;
+}

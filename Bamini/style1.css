@@ -1,0 +1,41 @@
+.tacbox
+{
+	display:block;
+	padding:1em;
+	margin:2em;
+	border:3px solid #ddd;
+	background-color:#eee;
+	max-width:800px;
+}
+
+input
+{
+	height:2em;
+	width:2em;
+	vertical-align:middle;
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(182, 214, 229);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.agree
+{
+    margin-bottom: 10px ;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    border: 1px solid rgba(112, 112, 112, 0.445);
+    background-color: rgba(125, 132, 224, 0.936);
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(255, 255, 255);
+}

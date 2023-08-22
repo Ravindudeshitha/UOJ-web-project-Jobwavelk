@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(182, 214, 229);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.accept
+{
+    margin-bottom: 10px ;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    border: 1px solid rgba(112, 112, 112, 0.445);
+    background-color: rgba(125, 132, 224, 0.936);
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(255, 255, 255);
+}

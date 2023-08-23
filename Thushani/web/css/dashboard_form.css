@@ -1,0 +1,132 @@
+/*dashboard form styles*/
+
+.home_content{
+    justify-content: center;
+    margin: 3% 0% 0% 0%;
+}
+.profile_update{
+    background-color:rgba(209, 206, 206, 0.17);
+    border: 1px solid rgba(255, 255, 255, 0.525);
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 35px 54px -48px rgba(0,0,0,0.7);
+    width: 75%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.update_form .prof_image{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.update_form .con_1{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.update_form .con_2{
+    margin-top: 40px;
+    color: aliceblue;
+}
+.update_form .add_job_name{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 15px 0px 10px 0px;
+}
+.update_form .prof_image img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.update_form .prof_image input{
+    width: 30%;
+    height: 30%;
+    background-color: aqua;
+    position:relative;
+    top: -45%;
+    left: 10%;
+    transform: scale(1.4);
+    opacity: 0;
+}
+input[type='file']::-webkit-file-upload-button{
+    cursor: pointer;
+}
+.update_form .prof_image i{
+    position: relative;
+    top: -30%;
+    left: 50%;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+.update_form .prof_image i:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*form */
+.form_content{
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.149);
+}
+.form_content .field{
+    display: flex;
+    flex-direction: column;
+}
+.form_content .field input[type='text'],[type='number'],[type='date'],[type='time'], .form_content .field select{
+    width: 100%;
+    height: 30px;
+    padding: 3px 10px 3px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: rgba(240, 248, 255, 0.771);
+}
+.form_content .field input[type='submit']{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding: 3px 10px 3px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(23, 56, 77);
+    border: 1px solid rgba(255, 255, 255, 0.453);
+}
+.form_content .field input[type='submit']:hover{
+    color: rgb(21, 47, 63);
+
+    background-color: rgb(82, 131, 181);
+}
+.form_content .field textarea{
+    width: 100%;
+    height: 75px;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: rgba(240, 248, 255, 0.771);
+}
+.form_content .field label{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}

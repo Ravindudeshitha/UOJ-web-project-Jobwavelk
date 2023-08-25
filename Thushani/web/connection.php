@@ -2,7 +2,7 @@
 $hostname="localhost";
 $username="root";
 $password='';
-$dbname="jobwave";
+$dbname="jobwavelk";
 
 $con=mysqli_connect($hostname,$username,$password,$dbname);
 if(!$con){

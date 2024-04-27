@@ -1,0 +1,282 @@
+/* ----------home --------------- */
+/* company image eke div box eka */
+.prof_image_data{
+  width: 100%;
+  margin-bottom: 5%;
+}
+.company_image{
+    margin-top: 45px;
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    position: fixed;
+  }
+  
+  
+  
+  /* compnay image eka */
+  .company_image img{
+    height: 200px;
+  }
+  .user_image{
+    margin-top: 75px;
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .profile_details{
+    padding-left: 60px;
+    margin-top: 75px;
+    margin-left: 250px
+  }
+  .profile_details h5{
+    font-size: 25px;
+    color: #fff;
+  }
+  .profile_details h6{
+    font-size: 20px;
+    color: #fff;
+  }
+  /* add pennana loku kotuwa */
+  .company_ads{
+    width: 110vh;
+    height: 55vh;
+    margin-left: 45px;
+    background-color: #798ca011;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* display: grid; */
+    /* grid-template-columns: 280px 280px 280px 280px;
+    grid-gap: 25px;
+    grid-auto-rows: 200px; */
+    justify-content: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+    
+  }
+  
+  
+  /* Ads small box */
+  .ads{
+    background-color: white;
+    width: 90vh;
+    min-height: 180px;
+    height: auto;
+    padding: 15px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+  
+  
+  }
+  
+  .ads .jobtitle{
+    font-size: 20px;;
+  }
+  /* -------------remove button ------------ */
+  .buttonRemove{
+    margin-top: 15px;
+    align-items: center;
+    background-color: #f50000;
+    border: 0;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    float: right;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 30px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .buttonRemove:hover { 
+    background-color: #a50000;
+    color: #ffffff;
+  }
+  
+  .buttonView{
+    margin-top: 15px;
+    align-items: center;
+    background-color: #0570c7;
+    border: 0;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    float: left;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 30px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .buttonView:hover { 
+    background-color: #013966;
+    color: #ffffff;
+  }
+  
+  .buttonUpdate{
+    margin-top: 15px;
+    margin-right: 5px;
+    align-items: center;
+    background-color: #03773d;
+    border: 0;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    float: right;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 30px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .buttonUpdate:hover { 
+    background-color: #00533f;
+    color: #ffffff;
+  }
+  
+  
+  /* ----------------------- */
+  .company_map{
+    background-color: #798ca011;
+    width: 40vh;
+    height: 55vh;
+    margin-left: 80px;
+    margin-top: 100px;
+    border-radius: 25px;
+  }
+  .company_terms{
+    background-color: #798ca011;
+    width: 40vh;
+    height: 55vh;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 25px;
+  
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  /* View popup window */
+  .ViewPopup{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    justify-content: center;
+    background-color: #e8484800;
+    
+    display: none;
+  }
+  .ViewPopup .colse_blur_div{
+    background-color: #ffffff09;
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .popup_details{
+    z-index: 106;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.45) 0px 13px 27px -5px, rgba(0, 0, 0, 2.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+  
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 30ms ease-in-out 0ms;
+  }
+  .ViewPopup.active{
+    display: flex;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 30ms ease-in-out 0ms;
+  }
+  
+  
+  .ViewPopup .closebtn{
+    position: inherit;
+    float: right;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    /* color:; */
+    cursor: pointer;
+  }
+  
+  .home_content#blur.active{
+    filter: blur(20px);
+    /* pointer-events: none;
+    user-select: none; */
+  }
+  

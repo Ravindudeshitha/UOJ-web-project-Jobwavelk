@@ -1,0 +1,105 @@
+
+.home_content{
+    height: 100%;
+}
+.com_work_job{
+    display: flex;
+    justify-content: space-between;
+	flex-wrap: wrap;
+    padding: 20px 50px 20px 50px;
+    height: 100%;
+}
+
+.field_box{
+    background-color: rgba(255, 255, 255, 0.878);
+    box-shadow: 15px 15px 10px rgb(13, 13, 13);
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+    margin: 55px;
+}
+.home_content a{
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.home_content a:hover{
+    scale: 1.1;
+}
+.field_box h3{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    color: rgb(63, 63, 63);
+}
+.field_box h2{
+    font-size: 90px;
+    padding: 0;
+    color: rgba(105, 106, 106, 0.795);
+}
+
+@media screen and (max-width:1024px){
+    .com_work_job{
+        padding: 20px 40px 20px 40px;
+    }
+    
+    .field_box{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        margin: 40px;
+    }
+    .field_box h3{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+    .field_box h2{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .com_work_job{
+        padding: 20px 40px 20px 40px;
+    }
+    
+    .field_box{
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        margin: 25px;
+    }
+    .field_box h3{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 15px;
+    }
+    .field_box h2{
+        font-size: 50px;
+    }
+    
+
+}
+
+@media screen and (max-width:568px){
+    .com_work_job{
+        padding: 20px 20px 20px 20px;
+    }
+    
+    .field_box{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .field_box h3{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 12px;
+    }
+    .field_box h2{
+        font-size: 30px;
+    }
+}

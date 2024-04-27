@@ -1,0 +1,258 @@
+
+
+.com_work_job{
+    display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+    padding: 20px 50px 20px 50px;
+}
+
+.field_box{
+    background-color: rgba(255, 255, 255, 0.878);
+    box-shadow: 15px 15px 10px rgb(13, 13, 13);
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+    margin: 55px;
+}
+.content a{
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.content a:hover{
+    scale: 1.1;
+}
+.field_box h3{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    color: rgb(63, 63, 63);
+}
+.field_box h2{
+    font-size: 90px;
+    padding: 0;
+    color: rgba(105, 106, 106, 0.795);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+    .com_work_job{
+        padding: 20px 40px 20px 40px;
+    }
+    
+    .field_box{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        margin: 40px;
+    }
+    .field_box h3{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+    .field_box h2{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .com_work_job{
+        padding: 20px 40px 20px 40px;
+    }
+    
+    .field_box{
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        margin: 25px;
+    }
+    .field_box h3{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 15px;
+    }
+    .field_box h2{
+        font-size: 50px;
+    }
+    
+
+}
+
+@media screen and (max-width:568px){
+    .com_work_job{
+        padding: 20px 20px 20px 20px;
+    }
+    
+    .field_box{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .field_box h3{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 12px;
+    }
+    .field_box h2{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* mail box */
+
+.home_section h2{
+    text-align: center;
+    color:white;
+    padding-top: 25px;
+    font-size: 30px;
+}
+.mailbox{
+    height: 75%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.001);
+    display: flex;
+}
+.mailbox_left{
+     height: 98%;
+    width: 30%;
+    margin: auto;
+    
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-right: 1%;
+    margin-left: 1%;
+    overflow: hidden;
+    overflow-y:scroll;
+}
+.mailbox_right{
+     height: 98%;
+    width: 70%;
+    margin: auto;
+    
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-right: 1%;
+}
+.inbox{
+    width: 100%;
+    height: 5%;
+    color: white;
+    text-align: center;
+    margin-bottom: 15%;
+}
+.inbox h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+
+}
+
+.inbox hr{
+    color: white;
+}
+
+.mail_name{
+    margin-top: 5%;
+    width: 96%;
+    height: 8%;
+    background-color:rgba(255, 255, 255, 0.1); ;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow: hidden;
+}
+.mail_name h4{
+ color: #fff;
+}
+
+.mail_name p{
+ color: rgba(255, 255, 255, 0.7);
+}
+.mailbox_right .message{
+    height: 96%;
+    width: 96%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 2%;
+    background-color:rgba(255, 255, 255, 0.1); ;
+
+}
+
+.message{
+    padding-top:4% ;
+}
+.message h4{
+    margin-top: 5%;
+    font-size: 20px;
+    color: #fff;
+}
+.message p{
+    margin-top: 3%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mailbox_right{
+    position: relative;
+}
+.message a{
+    float: right;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    border-radius: 10px;
+    
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.message h5{
+    margin-top: 2%;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+/* reply mail form css */
+
+

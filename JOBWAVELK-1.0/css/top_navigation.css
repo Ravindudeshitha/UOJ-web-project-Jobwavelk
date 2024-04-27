@@ -1,0 +1,283 @@
+/* Google Fonts Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Monoton&family=Oleo+Script&display=swap');
+
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Oleo Script', cursive;
+*/
+
+
+
+/*========== scroled design============*/
+.scrolled{
+    background-color: rgb(42, 99, 102);
+    opacity: 0.98;
+    transition: all 0.2s ease-in-out;
+}
+
+/*========== Navigation design============*/
+.top_navigation{
+    padding-top: 6px;
+    position: fixed;
+    height: 60px;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    color: white;
+    padding:0px 20px 10px 20px;
+}
+.top_navigation .content{
+    display: flex;
+}
+/*========== Site Logo design============*/
+
+.top_navigation .content .logo_section{
+    padding-top: 10px;
+    width: 200px;
+    display: flex;
+    color:white;
+    margin-right: 30%;
+}
+.top_navigation .content .logo_section h2{
+    font-size: 25px;
+    
+}
+.top_navigation .content .logo_section i{
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+}
+
+.top_navigation .content .logo_section img{
+    width: 100%;
+    height: auto;
+    margin-bottom: ;
+}
+
+.top_navigation .content .logo_section:hover{
+    color: aqua;
+}
+/*========== Link tab design ============*/
+.top_navigation .content .link_button{
+    margin-right: 3%;
+}
+.top_navigation .content .link_button ul{
+    padding-top: 15px;
+    display: flex;
+    
+}
+.top_navigation .content .link_button ul li{
+    list-style: none;
+    margin-right: 40px; 
+}
+.top_navigation .content .link_button ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(223, 226, 239);
+}
+.top_navigation .content .link_button ul li a:hover{
+    color: rgb(88, 168, 208);
+}
+/*==========log omage==================*/
+.top_navigation .content .login_button .log_user{
+    width: 180px;
+}
+.top_navigation .content .login_button .log_user_img{
+    margin-top: 10px;
+    margin-left: 80%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.top_navigation .content .login_button .log_user ul{
+    position: relative;
+    left: 40px;
+    top: 10px;
+    width: 160px;
+    padding: 0;
+    background-color: aqua;
+
+}
+.top_navigation .content .login_button .log_user li{
+    width: 100%;
+    list-style: none;
+    height: 40px;
+    display: inline-block;
+}
+.top_navigation .content .login_button .log_user li a{
+    border: none;
+    border-radius: 0px;
+    padding-left: 15px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    background-color: rgb(42, 99, 102);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+
+}
+.top_navigation .content .login_button .log_user li i{
+    margin-right: 5px;
+    font-size: 25px;
+}
+.top_navigation .content .login_button .log_user li a:hover{
+    color: rgb(42, 99, 102);
+    background-color: aquamarine;
+}
+.top_navigation .content .login_button .log_user_img img{
+    height: 100%;
+    margin-left: -6px;
+}
+.login_button .log_user ul{
+    display: none;
+}
+.login_button .log_user:hover ul{
+    display: block;
+}
+.login_button .log_user:hover{
+    height: 200px;
+} 
+/*========== Log out button design============*/
+
+.top_navigation .content .login_button{
+    
+    width: 38%;
+    height: 45px;
+    font-size:17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20%;
+    
+}
+.top_navigation .content .login_button .sign_but{
+    padding-top: 15px;
+}
+
+.top_navigation .content .login_button .sign_but a{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 0px 4px 0px 4px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.top_navigation .content .login_button .sign_but a:hover{
+    background-color: white;
+    color: black;
+}
+/*********menu button************/
+.menu_but {
+    height: 60px;
+    margin-left: 25px;
+    display: none;
+}
+.menu_but .fa-bars{
+    width: 40px;
+    height: 60px;
+    padding-top: 15px;
+    font-size: 25px ;
+}
+.menu_but .menu_link{
+    position: absolute;
+    right: 0px;
+    width: 250px;
+    display: none;
+}
+.menu_but .active.menu_link{
+    display: block;
+}
+.menu_link li{
+    width: 100%;
+    list-style: none;
+    height: 45px;
+}
+.menu_link li a{
+    padding-left: 15px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    background-color: rgb(42, 99, 102);
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.menu_link li i{
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.menu_link li a:hover{
+    color: rgb(42, 99, 102);
+    background-color: aquamarine;
+}
+
+
+@media screen and (max-width:1024px){
+    .jobs_section{
+        height: 155vh;
+    }
+    .post_section .post_block{
+        width: 45%;
+
+    }
+    
+    .top_navigation .content .link_button {
+        margin-right: 0%;
+    }
+    .top_navigation .content .logo_section {
+        margin-right: 12%;
+    }
+    .top_navigation .content .link_button ul li{
+        margin-right: 20px;
+    }
+    .top_navigation .content .login_button .sign_but a{
+        font-size: 14px;
+        margin-right: 4px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .post_section .post_block{
+        width: 50%;
+
+    }
+    /* .top_navigation .content .login_button .log_user_img{
+        margin-left: 20%;
+    } */
+
+    .menu_but{
+        display: block;
+    }
+    .sign_but{
+        display: none;
+    }
+    .top_navigation .content .link_button{
+        display: none;
+    }
+    .top_navigation .content .login_button{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:568px){
+    .post_section .post_block{
+        width: 100%;
+    }
+}

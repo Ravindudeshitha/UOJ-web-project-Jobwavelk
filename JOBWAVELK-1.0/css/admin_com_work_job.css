@@ -1,0 +1,138 @@
+.home_content{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.detail_box{
+    width: 80%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.347);
+    border-radius: 5px;
+    overflow: auto;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+}
+.field{
+    width: 100%;
+    height: 70px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.73);
+    margin-bottom: 2px;
+    padding: 5px;
+    display: flex;
+    color: rgb(104, 104, 104);
+}
+
+.image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 5px;
+    font-weight: 100;
+    border: 1px solid rgba(52, 52, 52, 0.171);
+}
+.image img{
+    height: 60px;
+}
+.name{
+    height: 60px;
+    width: 30%;
+    margin-right: 5px;
+    font-size: 18px;
+    padding: 15px 10px 15px 10px;
+}
+.email{
+    height: 100%;
+    width: 36%;
+    margin-right: 5px;
+    font-size: 18px;
+    padding: 15px 10px 15px 10px;
+}
+.phone{
+    height: 100%;
+    width: 20%;
+    margin-right: 5px;
+    font-size: 18px;
+    padding: 15px 10px 15px 10px;
+}
+.but{
+    height: 100%;
+    width: 50px;
+    padding: 15px 10px 15px 10px;
+}
+.but a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+.but i{
+    font-size: 30px;
+}
+
+
+
+
+/*  jobs */
+.head_field{
+    width: 100%;
+    height: 70px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.968);
+    margin-bottom: 3px;
+    padding: 12px 5px 5px 5px;
+    display: flex;
+    color: rgb(71, 71, 71);
+    font-weight: 800;
+    position: inherit;
+}
+.job_field{
+    width: 100%;
+    height: 55px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.686);
+    margin-bottom: 3px;
+    padding: 5px;
+    display: flex;
+    color: rgb(104, 104, 104);
+}
+.user_name{
+    height: 60px;
+    width: 30%;
+    margin-right: 5px;
+    font-size: 18px;
+    padding: 10px 10px 15px 10px;
+}
+.job_title{
+    height: 60px;
+    width: 30%;
+    margin-right: 5px;
+    font-size: 18px;
+    padding: 10px 10px 15px 10px;
+}
+.job_type{
+    height: 60px;
+    width: 20%;
+    margin-right: 5px;
+    font-size: 18px;
+    padding: 10px 10px 15px 10px;
+}
+.num_of_vacancy{
+    height: 60px;
+    width: 12%;
+    margin-right: 5px;
+    font-size: 18px;
+    padding: 10px 10px 15px 10px;
+}
+.date{
+    height: 60px;
+    width: 20%;
+    margin-right: 5px;
+    font-size: 18px;
+    padding: 10px 10px 15px 10px;
+}

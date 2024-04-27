@@ -1,0 +1,802 @@
+/* Google Fonts Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Monoton&family=Oleo+Script&display=swap');
+
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Oleo Script', cursive;
+*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;  
+}
+
+/*========== scroled design============*/
+.scrolled{
+    background-color: rgb(42, 99, 102);
+    opacity: 0.98;
+    transition: all 0.2s ease-in-out;
+}
+
+/*========== Navigation design============*/
+.top_navigation{
+    padding-top: 6px;
+    position: fixed;
+    height: 60px;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    color: white;
+    padding:0px 20px 10px 20px;
+    
+}
+.top_navigation .content{
+    display: flex;
+}
+/*========== Site Logo design============*/
+
+.top_navigation .content .logo_section{
+    padding-top: 5px;
+    width: 22%;
+    display: flex;
+    color:white;
+    margin-right: 20%;
+}
+.top_navigation .content .logo_section h2{
+    font-size: 25px;
+    
+}
+.top_navigation .content .logo_section i{
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+}
+.top_navigation .content .logo_section img{
+    width: 90%;
+    height: auto;
+    margin-bottom: 1%;
+}
+.top_navigation .content .logo_section:hover{
+    color: aqua;
+}
+/*========== Link tab design ============*/
+.top_navigation .content .link_button{
+    margin-right: 3%;
+}
+.top_navigation .content .link_button ul{
+    padding-top: 15px;
+    display: flex;
+    
+}
+.top_navigation .content .link_button ul li{
+    list-style: none;
+    margin-right: 40px; 
+}
+.top_navigation .content .link_button ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(223, 226, 239);
+}
+.top_navigation .content .link_button ul li a:hover{
+    color: rgb(0, 249, 208);
+}
+/*==========log omage==================*/
+.top_navigation .content .login_button .log_user{
+    width: 180px;
+}
+.top_navigation .content .login_button .log_user_img{
+    margin-top: 10px;
+    margin-left: 80%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.top_navigation .content .login_button .log_user ul{
+    position: relative;
+    left: 40px;
+    top: 10px;
+    width: 160px;
+    padding: 0;
+    background-color: aqua;
+
+}
+.top_navigation .content .login_button .log_user li{
+    width: 100%;
+    list-style: none;
+    height: 40px;
+    display: inline-block;
+}
+.top_navigation .content .login_button .log_user li a{
+    padding-left: 25px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    background-color: rgb(42, 99, 102);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+
+}
+.top_navigation .content .login_button .log_user li i{
+    margin-right: 5px;
+    font-size: 25px;
+}
+.top_navigation .content .login_button .log_user li a:hover{
+    color: rgb(42, 99, 102);
+    background-color: aquamarine;
+}
+.top_navigation .content .login_button .log_user_img img{
+    height: 100%;
+}
+.login_button .log_user ul{
+    display: none;
+}
+.login_button .log_user:hover ul{
+    display: block;
+}
+.login_button .log_user:hover{
+    height: 200px;
+} 
+/*========== Log out button design============*/
+
+.top_navigation .content .login_button{
+    
+    width: 38%;
+    height: 45px;
+    font-size:17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20%;
+    
+}
+.top_navigation .content .login_button .sign_but{
+    padding-top: 15px;
+}
+
+.top_navigation .content .login_button .sign_but a{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 0px 4px 0px 4px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.top_navigation .content .login_button .sign_but a:hover{
+    background-color: white;
+    color: black;
+}
+/*********menu button************/
+.menu_but {
+    height: 60px;
+    margin-left: 25px;
+    display: none;
+}
+.menu_but .fa-bars{
+    width: 40px;
+    height: 60px;
+    padding-top: 15px;
+    font-size: 25px ;
+}
+.menu_but .menu_link{
+    position: absolute;
+    right: 0px;
+    width: 250px;
+    display: none;
+}
+.menu_but .active.menu_link{
+    display: block;
+}
+.menu_link li{
+    width: 100%;
+    list-style: none;
+    height: 45px;
+}
+.menu_link li a{
+    padding-left: 15px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    background-color: rgb(42, 99, 102);
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.menu_link li i{
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.menu_link li a:hover{
+    color: rgb(42, 99, 102);
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.background{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+.background img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*====== Home section ======*/
+
+.home_section{
+    height: calc(100vh);
+    padding-top: 8%;
+}
+
+.home_section .home_data{
+    display: flex;
+    flex-direction: row;
+}
+.home_section .home_data .home_discription{
+    width: 50%;
+    height: 80vh;
+    padding-top: 10%;
+}
+.home_section .home_data .home_discription .description_data h2{
+    font-family: 'Helvetica',cursive;
+    color: white;
+    font-size: 35px;
+    font-weight: 10;
+}
+.home_section .home_data .home_discription .description_data b{
+    font-size: 40px;
+    color: rgb(0, 249, 208);
+    font-family: 'Xaviera',;
+    font-weight: 500;
+}
+.home_section .home_data .home_discription .description_but{
+    margin-top: 40px;
+}
+.home_section .home_data .home_discription .description_but a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(5, 129, 71, 0.63);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    background-color: rgba(6, 151, 83, 0.63);
+    /* box-shadow: 0 1px 40px 10px rgba(38, 212, 120, 0.642),
+                0 4px 20px -4px rgba(30, 249, 198, 0.7); */
+
+     box-shadow: rgba(0, 0, 0, 0.3) 
+                0px 19px 38px, rgba(0, 0, 0, 0.22) 
+                0px 15px 12px;        
+}   
+
+.home_section .home_data .home_discription .description_but a:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(5, 129, 71 );
+}
+
+.home_section .home_data .home_image{
+   
+    width: 50%;
+    z-index: 10;
+}
+.home_section .home_data .home_img2{
+    position: absolute;
+    top: 8%;
+    z-index: 5;
+    width: 45%;
+    
+}
+.home_section .home_data .home_img2 img{
+   
+}
+.home_section .home_data .home_image img{
+    position: absolute;
+    left: -5%;
+    top: 5%;
+    width: 55%;
+}
+
+/*=====section head=============*/
+.section_head{
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.section_head .more{
+    margin-top: 3%;
+    margin-left: 80%;
+    display: flex;
+}
+.section_head h2{
+    font-size: 35px;
+    font-family: 'sans-serif';
+    color:#fff;
+}
+.section_head p{
+    font-size: 20px;
+    color: #fff;
+}
+.section_head i{
+    width: 40px;
+    font-size: 35px;
+    margin: 0px 0px 0px 10px;
+    color: #fff;
+}
+.section_head a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*====== Jobs section ======*/
+.more a i.bx.bx-right-arrow-circle {
+    transition: transform 0.3s;           
+}
+
+.more a i.bx.bx-right-arrow-circle:hover {
+    transform: translateX(5px);                  
+    color:aqua;
+}
+
+
+.jobs_section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s ease;
+}
+
+/*.post_section{
+    padding: 60px 20px 10px 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.post_section .post_block{
+    padding: 15px 25px;
+	width: 20%;
+    height: 50vh;
+
+}
+.post_section .card{
+    background-color:rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 0.525);
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+.post_section .card:hover{
+    scale:105%;
+    transition: all 0.5s;
+}
+.post_section .post_block .image{
+    height: 40%;
+    width: 100%;
+    border-radius:  6px 6px 0px 0px;
+    overflow: hidden;
+}
+.post_section .post_block center{
+    height: 100%;
+    width: 100%;
+}
+.post_section .post_block .image center img{
+    
+    width: 100%;
+
+}
+
+/*card detail
+
+.post_section .post_block .card .card_details{
+    padding: 10px;
+    width: 100%;
+
+}
+.card_details .main_data{
+    display: flex;
+    margin-bottom: 4%;
+}
+.card_details .data1{
+    width: 50%;
+}
+.card_details .data2{
+    width: 50%;
+    text-align: right;
+}
+.card_details h2{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card_details h3{
+    padding-top:20px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card_details p{
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+}
+.card_details .link_btn{
+    width: 100%;
+    padding-left: 60%;
+    outline: none;
+}
+.card_details a button{
+    color: white;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.9);
+    border:1px solid rgba(72, 72, 72, 0.241);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card_details a button:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border:1px solid rgba(0, 0, 0, 0.99);
+}*/
+
+.container{
+    display: flex;
+    position: relative;
+    background-color: none;
+    width:100% ;
+	justify-content: space-between;
+    flex-wrap: wrap;
+	padding: 35px 20px 0px 20px;
+    
+    
+}
+.job_post{
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    padding-top: 15%;
+    
+    
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 360px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+    margin: 10px;
+
+}
+
+.card:hover{
+}
+.card_image{
+    position: absolute;
+    left: 50%;
+    top:-50px;
+    transform: translateX(-50%);
+    width: 150px;
+    height:150px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card:hover .card_image{
+    width: 160px;
+    height:160px;
+}
+
+.card_image img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.card .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.card .content .link_btn{
+    
+}
+
+.card .content .details{
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #555;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    z-index: 0;
+    transform: translateY(0px);
+    
+}
+.card:hover .content .details{
+    transform: translateY(10px);
+}
+.card .content .details p{
+    font-size: 12px;
+}
+
+.card .content .details .data{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.card .content .details button{
+    padding:5px 8px;
+    background-color: #3f3f3f;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width:1024px){
+    .jobs_section{
+        height: 155vh;
+    }
+    .post_section .post_block{
+        width: 45%;
+
+    }
+    
+    .top_navigation .content .link_button {
+        margin-right: 0%;
+    }
+    .top_navigation .content .logo_section {
+        margin-right: 12%;
+    }
+    .top_navigation .content .link_button ul li{
+        margin-right: 20px;
+    }
+    .top_navigation .content .login_button .sign_but a{
+        font-size: 14px;
+        margin-right: 4px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .post_section .post_block{
+        width: 50%;
+
+    }
+    /* .top_navigation .content .login_button .log_user_img{
+        margin-left: 20%;
+    } */
+
+    .menu_but{
+        display: block;
+    }
+    .sign_but{
+        display: none;
+    }
+    .top_navigation .content .link_button{
+        display: none;
+    }
+    .top_navigation .content .login_button{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:568px){
+    .post_section .post_block{
+        width: 100%;
+    }
+}
+
+
+/*====== About section ======*/
+
+.about_section{
+    width: 100%;
+    height: 100vh;
+}
+.about_section .section_head{
+    color: white;
+}
+.about_section .about_data{
+    display: flex;
+    width: 100%;
+}
+.about_data .about_image{
+    margin-left: 10%;
+    width: 40%;
+}
+.about_data .about_image img{
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+}
+.about_section .about_details{
+    padding: 5% 5% 5% 5%; 
+    width:50%;
+}
+.about_section .about_details .part_1 p, .about_section .about_details .part_2 p{
+    font-size: 18px;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-bottom: 7%;
+    color: rgb(238, 234, 217);
+}
+
+
+/*====== Contact section ======*/
+
+.contact_section{
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.contact_data{
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    
+}
+.contact_data .contact_details{
+    width: 50%;
+}
+.contact_data .contact_image{
+    margin-left: 10%;
+    width: 40%;
+}
+.contact_data .contact_image img{
+    width: 100%;
+    margin-top: 15%;
+}
+
+
+.contact_data .contact_details h2{
+    color:#fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+
+
+.contact-us{
+	width: 70%;
+	margin: auto;
+}
+.contact-col{
+	flex-basis: 48%;
+	margin-bottom: 30px;
+}
+.contact-col div{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.contact-col div .fa{
+	font-size: 18px;
+	color:  #ffffff;
+	margin: 10px;
+	margin-right: 30px;
+}
+.contact-col div p{
+	padding: 0;
+	color: #929191;
+}
+.contact-col div h5{
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #ffffff;
+	font-weight: 300;
+}
+.contact-col input, .contact-col textarea{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+	outline: none;
+    border:1px solid #009aae;
+	box-sizing: border-box;
+    resize: none;
+}
+.here-btn-green-btn{
+	padding: 5px;
+    border: none;
+}
+.here-btn-green-btn:hover{
+	color:#fff;
+	background-color: #008B8B;
+
+}
+.contact-col button{
+    background-color: rgba(0, 231, 165, 0.998);             /* AKIlA */
+    font-weight: bold;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+.footer{
+    text-align: center;
+    color: #b4b3b3;
+    padding: 25px;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

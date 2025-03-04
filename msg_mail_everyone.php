@@ -14,7 +14,6 @@ if(isset($_POST['send_message'])){
 
     $message_upload = "INSERT INTO msg_anyone(name,email,subject,message,date) VALUES ('$name', '$email', '$subject', '$msg', '$date')";
     $result= mysqli_query($con, $message_upload);
-
 }
 else{
     header("Location: home.php#contact");

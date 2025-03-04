@@ -15,9 +15,6 @@
     <link rel="stylesheet" href="css/side_navigation.css">
     <link rel="stylesheet" href="css/job_view.css">
 
-
-
-    
     <!-- Boxicons CSS -->
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 

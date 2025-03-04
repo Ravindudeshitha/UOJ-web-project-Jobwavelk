@@ -38,9 +38,6 @@ if($msg == 'yes'){
     $subject = $com_name;
     $message = "Dear $work_name,<br> <h3>You have been selected for $job_title $job_type job at $com_name. Your visit is definitely expected</h3> <br> <h4>Address : $address</h4>  <h4>Date : $date</h4>  <h4>Time : $time</h4> <br> Thank You";
 
-    
-
-
 }
 else if($msg == 'no'){
     $yes_query1 = "SELECT * FROM user WHERE reg_id = (SELECT reg_id FROM work_profile WHERE work_id = $work_id)";
